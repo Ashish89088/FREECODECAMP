@@ -1,0 +1,19 @@
+body{
+    background: url('rock-paper-scissors-neon-icons.png');
+    /* background-repeat: no-repeat; */
+    background-size: 100%;
+    color: white;
+    
+}
+#heading{
+    text-align: center;
+    background-color: black;
+    margin: 5px;
+    /* margin-left: 5px;
+    margin-right: 5px; */
+    font-size: 40px;
+}
+button{
+    margin-left: 14%;
+    margin-right: 13%;
+}

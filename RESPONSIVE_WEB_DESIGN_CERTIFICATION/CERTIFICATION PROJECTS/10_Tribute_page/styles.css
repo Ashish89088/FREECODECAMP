@@ -1,0 +1,27 @@
+#image{
+    max-width: 100%;
+    height: auto;
+  }
+  #img-div{
+    display: block;
+    background-color: white;
+    text-align: center;
+  }
+  img{
+    border-width: 2%;
+    border-color: black;
+  }
+  #main{
+    background-color: rgb(216, 212, 212);
+  }
+  #title ,#desc{
+    text-align: center;
+  }
+  #container{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  #Borlaug-life{
+    text-align: center;
+    font-size: larger;
+  }

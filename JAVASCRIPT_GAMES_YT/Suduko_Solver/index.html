@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUDUKO-SOLVER</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="header">SOLVE THIS SUDUKO
+        <button onclick="showtimerfun()" id="timer" >TIMER :</button><span id="show-timer"></span>
+        <div>
+            <button onclick="showerrorfun()" id="error">SHOW ERROR</button>
+            <span id="showerror">0</span>
+        </div>
+    </div>
+    
+    <div id="board"></div>
+    <button onclick="submitfun()" id="submit">SUBMIT</button>
+    <div id="result">RESULT:<span id="showresult"></span></div>
+    <script src="script.js"></script>
+</body>
+</html>
