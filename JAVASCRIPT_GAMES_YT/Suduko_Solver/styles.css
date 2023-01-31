@@ -1,5 +1,6 @@
 body{
-    background: linear-gradient(180deg,lightblue,gray);
+    /* background-color: #45567d; */
+    background-color: #303841;
 }
 #header{
     padding-top: 20px;
@@ -7,7 +8,7 @@ body{
     margin-bottom: 10px;
     font-size: 40px;
     font-weight: 500;
-    color: #131A22;
+    color: white;
 }
 #timer{
     margin-left: 15%;
@@ -41,11 +42,17 @@ body{
     width: 40px;
     height: 40px;
 }
+#submitbtn{
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: yellow;
+}
 #submit , #result{
     font-size: 20px;
     font-weight: 200;
     margin-left: 27%;
-    margin-top: 20px;
+    margin-top: 50px; 
 }
 
 
